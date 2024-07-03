@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.navSection{
+    /* background-color: rgb(68, 68, 225); */
+    background-color: #f79256;
+    color: black;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    font-size: large;
+    
+}
+
+.navSection span{
+    cursor: pointer;
+}
+
+.sideBarSection{
+    background-color:#EED7C5;
+    height: 91vh;
+    width: 100%;
+    max-width: 14vw;
+    padding-top: 20px;
+    margin-right: 100px;
+    
+}
+
+.sideBarSection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.loginContainer{
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.containerComponents{
+    display: flex;
+}
+.authForm{
+    border: 2px solid lightcoral;
+    width: 100%;
+    max-width: 50%;
+    margin-top: -300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    -webkit-box-shadow: 6px 7px 14px 0px rgb(243, 142, 84);
+    -moz-box-shadow: 6px 7px 14px 0px rgb(243, 142, 84);
+    box-shadow: 6px 7px 14px 0px rgb(243, 142, 84);
+}
+
+.authForm input{
+    height: 20px;
+    width: 200px;
+}
+
+.registerSection{
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.registerSection label{
+    width: 100%;
+    max-width: 35%;
+}
+
+.firmSection{
+    width: 100%;
+    max-width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.tableForm{
+    border: 2px solid lightcoral;
+    width: 100%;
+    max-width: 50%;
+    margin-top: -100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    -webkit-box-shadow: 6px 7px 14px 0px rgb(243, 142, 84);
+    -moz-box-shadow: 6px 7px 14px 0px rgb(243, 142, 84);
+    box-shadow: 6px 7px 14px 0px rgb(243, 142, 84);
+}
+
+.tableForm label{
+    width: 100%;
+    max-width: 50%;
+}
+
+.tableForm input{
+    height: 20px;
+    width: 300px;
+}
+
+.productSection{
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.productTableForm{
+    border: 2px solid lightcoral;
+    width: 100%;
+    max-width: 50%;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    -webkit-box-shadow: 6px 7px 14px 0px rgb(243, 142, 84);
+    -moz-box-shadow: 6px 7px 14px 0px rgb(243, 142, 84);
+    box-shadow: 6px 7px 14px 0px rgb(243, 142, 84);
+}
+
+.productTableForm label{
+    width: 100%;
+    max-width: 50%;
+}
+
+.productTableForm input{
+    height: 35px;
+    width: 320px;
+}
+
+
+.checkBoxContainer {
+    width: 100%;
+    max-width: 50%;
+  }
+
+.checkBoxValues {
+    display: flex;
+}
+.checkBoxValues label {
+    white-space: nowrap;
+  }
+
+  .checkBoxValues input[type="checkbox"] {
+    margin-left: 15px;
+  }
+ 
+  .checkBoxProdValues{
+    display: flex;
+    align-items: center;
+  }
+  .checkBoxProdValues input[type="checkbox"] {
+    transform: scale(0.6);
+  }
+
+ .radioBoxContainer{
+    width: 100%;
+    max-width: 50%;
+ }
+ .radioBoxProdValues{
+    display: flex;
+    align-items: center;
+  }
+ .radioBoxProdValues input[type="radio"] {
+    transform: scale(0.6);
+  }
+
+.productTable{
+    border: 2px solid gray;
+    width: 80vw;
+    margin-top: 70px;
+    border-collapse: collapse;
+}
+
+.productTable th,
+.productTable td{
+border: 2px solid black;
+padding: 8px;
+}
+
+.productTable th{
+    text-align: left;
+    background-color: #f79256;
+}
+
+.notfound{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: #D96C06;
+}
+
+.btnSubmit{
+    background-color: #f36f3b; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.btnSubmit{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+  
+  .btnSubmit:hover {
+    background-color: #f44336;
+    color: white;
+  }
